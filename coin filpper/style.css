@@ -1,0 +1,118 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body 
+{
+    height: 100vh;
+    background-color: #FE7A36;    
+}
+nav
+{
+    width: 100%;
+    height: 80px;
+    background-color: #3652AD;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_button
+{
+    width: 400px;
+    height: 60px;
+    border-radius: 90px;
+    font-size: 40px;
+}
+.nav_button:hover
+{
+    outline-width: 5px;
+    outline: 5px solid #FE7A36 ;
+    border:3px solid #280274;
+}
+.navbar_heading
+{
+    color:#E9F6FF ;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.game_board
+{
+    width: 1000px;
+    height: 550px;
+    background-color: #280274;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-container {
+    width: 950px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.game_message
+{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #FE7A36;
+}
+.buttons
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heads,.tails
+{
+    width: 450px;
+    height: 80px;
+    border-radius: 90px;
+    font-size: 40px;
+    background-color: #280274;
+    color: #E9F6FF;
+    border: none;
+}
+.heads:hover
+{
+    outline-width: 5px;
+    outline: 5px solid #FE7A36 ;
+    border:3px solid #E9F6FF;
+}
+.tails:hover
+{
+    outline-width: 5px;
+    outline: 5px solid #FE7A36 ;
+    border:3px solid #E9F6FF;
+}
+.result-message {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: aqua;
+}
+.refresh
+{
+    width: 450px;
+    height: 80px;
+    border-radius: 90px;
+    font-size: 40px;
+    background-color: #280274;
+    color: #E9F6FF;
+    border: none;
+}
+.refresh:hover
+{
+    outline-width: 5px;
+    outline: 5px solid #FE7A36 ;
+    border:3px solid #E9F6FF;
+}

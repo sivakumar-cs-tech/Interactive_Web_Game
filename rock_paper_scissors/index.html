@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../images/original.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <a href="../guess_the_number/index.html"><button class="nav_button">Previous</button></a>
+        <h1 class="navbar_heading">ROCK PAPER SCISSORS</h1>
+        <a href="../memorygame/index.html"><button class="nav_button">Next</button></a>
+    </nav>
+    <div class="game_board">
+        <div class="player_ai_container">
+            <div class="user_container">
+                <h1 class="identifier">USER</h1>
+            </div>
+            <div class="ai_container">
+                <h1 class="identifier"> COMPUTER</h1>
+            </div>
+        </div>
+        <div class="picture_container">
+            <div class="user" id="user">
+                
+            </div>
+            <div class="computer" id="ai">
+
+            </div>
+        </div>
+        <div class="button_container">
+            <button class="choice_button" onclick="rock()">Rock</button>
+            <button class="choice_button" onclick="paper()">Paper</button>
+            <button class="choice_button" onclick="scissors()">Scissors</button>
+        </div>
+        <div class="game_board_final">
+            <h1 class="count">GAME CHANCE IS : <span id="count">10</span></h1>
+            <h1 class="head2" id="res">GAME_START</h1>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
