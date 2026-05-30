@@ -27,4 +27,4 @@ This project is a collection of interactive web-based games developed using HTML
 - Button Clicker
 
 ## 👨‍💻 Author
-Your Name
+sivakumar
